@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="flipkart Automation" duration-ms="33506" started-at="2019-10-24T13:29:24Z" finished-at="2019-10-24T13:29:58Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="2393" started-at="2019-10-24T13:29:24Z" finished-at="2019-10-24T13:29:27Z">
+      <class name="com.flipkart.qa.testCases.LoginPageTest">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.flipkart.qa.testCases.LoginPageTest@4678c730]" name="loginPageTitleTest" duration-ms="13" started-at="2019-10-24T18:59:24Z" finished-at="2019-10-24T18:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="flipkartLogoImageTest()[pri:2, instance:com.flipkart.qa.testCases.LoginPageTest@4678c730]" name="flipkartLogoImageTest" duration-ms="59" started-at="2019-10-24T18:59:24Z" finished-at="2019-10-24T18:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartLogoImageTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.flipkart.qa.testCases.LoginPageTest@4678c730]" name="loginTest" duration-ms="2307" started-at="2019-10-24T18:59:25Z" finished-at="2019-10-24T18:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.flipkart.qa.testCases.LoginPageTest -->
+    </test> <!-- Login -->
+    <test name="Home Page" duration-ms="5486" started-at="2019-10-24T13:29:27Z" finished-at="2019-10-24T13:29:32Z">
+      <class name="com.flipkart.qa.testCases.HomePageTest">
+        <test-method status="PASS" signature="accountUserNameTest()[pri:2, instance:com.flipkart.qa.testCases.HomePageTest@68c4039c]" name="accountUserNameTest" duration-ms="1079" started-at="2019-10-24T18:59:27Z" finished-at="2019-10-24T18:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountUserNameTest -->
+        <test-method status="PASS" signature="clickSearchItemTest()[pri:3, instance:com.flipkart.qa.testCases.HomePageTest@68c4039c]" name="clickSearchItemTest" duration-ms="1082" started-at="2019-10-24T18:59:28Z" finished-at="2019-10-24T18:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchItemTest -->
+        <test-method status="PASS" signature="sendSearchItemTest()[pri:4, instance:com.flipkart.qa.testCases.HomePageTest@68c4039c]" name="sendSearchItemTest" duration-ms="1194" started-at="2019-10-24T18:59:29Z" finished-at="2019-10-24T18:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendSearchItemTest -->
+        <test-method status="PASS" signature="searchClickTest()[pri:5, instance:com.flipkart.qa.testCases.HomePageTest@68c4039c]" name="searchClickTest" duration-ms="2127" started-at="2019-10-24T18:59:30Z" finished-at="2019-10-24T18:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClickTest -->
+      </class> <!-- com.flipkart.qa.testCases.HomePageTest -->
+    </test> <!-- Home Page -->
+    <test name="Phone Search Page" duration-ms="10324" started-at="2019-10-24T13:29:32Z" finished-at="2019-10-24T13:29:43Z">
+      <class name="com.flipkart.qa.testCases.PhoneSearchResultPageTest">
+        <test-method status="PASS" signature="phoneSearchPageTitleTest()[pri:2, instance:com.flipkart.qa.testCases.PhoneSearchResultPageTest@1e88b3c]" name="phoneSearchPageTitleTest" duration-ms="2034" started-at="2019-10-24T18:59:32Z" finished-at="2019-10-24T18:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneSearchPageTitleTest -->
+        <test-method status="PASS" signature="verifyCorrectSearchTest()[pri:3, instance:com.flipkart.qa.testCases.PhoneSearchResultPageTest@1e88b3c]" name="verifyCorrectSearchTest" duration-ms="2077" started-at="2019-10-24T18:59:34Z" finished-at="2019-10-24T18:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectSearchTest -->
+        <test-method status="PASS" signature="clickOnPhoneTest()[pri:4, instance:com.flipkart.qa.testCases.PhoneSearchResultPageTest@1e88b3c]" name="clickOnPhoneTest" duration-ms="6195" started-at="2019-10-24T18:59:36Z" finished-at="2019-10-24T18:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPhoneTest -->
+      </class> <!-- com.flipkart.qa.testCases.PhoneSearchResultPageTest -->
+    </test> <!-- Phone Search Page -->
+    <test name="Phone Buy Page" duration-ms="2150" started-at="2019-10-24T13:29:43Z" finished-at="2019-10-24T13:29:45Z">
+      <class name="com.flipkart.qa.testCases.PhoneBuyPageTest">
+        <test-method status="PASS" signature="buyPageTitleTest()[pri:2, instance:com.flipkart.qa.testCases.PhoneBuyPageTest@6a4f787b]" name="buyPageTitleTest" duration-ms="11" started-at="2019-10-24T18:59:43Z" finished-at="2019-10-24T18:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyPageTitleTest -->
+        <test-method status="PASS" signature="buyNowButtonEnabledTest()[pri:3, instance:com.flipkart.qa.testCases.PhoneBuyPageTest@6a4f787b]" name="buyNowButtonEnabledTest" duration-ms="29" started-at="2019-10-24T18:59:43Z" finished-at="2019-10-24T18:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNowButtonEnabledTest -->
+        <test-method status="PASS" signature="buyNowButtonClick()[pri:4, instance:com.flipkart.qa.testCases.PhoneBuyPageTest@6a4f787b]" name="buyNowButtonClick" duration-ms="2108" started-at="2019-10-24T18:59:43Z" finished-at="2019-10-24T18:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNowButtonClick -->
+      </class> <!-- com.flipkart.qa.testCases.PhoneBuyPageTest -->
+    </test> <!-- Phone Buy Page -->
+    <test name="Checkout Page" duration-ms="13065" started-at="2019-10-24T13:29:45Z" finished-at="2019-10-24T13:29:58Z">
+      <class name="com.flipkart.qa.testCases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipkart.qa.testCases.LoginPageTest@4678c730]" name="setup" is-config="true" duration-ms="13252" started-at="2019-10-24T18:59:11Z" finished-at="2019-10-24T18:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipkart.qa.testCases.HomePageTest@68c4039c]" name="setup" is-config="true" duration-ms="2" started-at="2019-10-24T18:59:24Z" finished-at="2019-10-24T18:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipkart.qa.testCases.PhoneSearchResultPageTest@1e88b3c]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-24T18:59:24Z" finished-at="2019-10-24T18:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipkart.qa.testCases.PhoneBuyPageTest@6a4f787b]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-24T18:59:24Z" finished-at="2019-10-24T18:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipkart.qa.testCases.CheckoutPageTest@7d9d1a19]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-24T18:59:24Z" finished-at="2019-10-24T18:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.flipkart.qa.testCases.LoginPageTest -->
+      <class name="com.flipkart.qa.testCases.CheckoutPageTest">
+        <test-method status="PASS" signature="checkoutPageTitleTest()[pri:2, instance:com.flipkart.qa.testCases.CheckoutPageTest@7d9d1a19]" name="checkoutPageTitleTest" duration-ms="2010" started-at="2019-10-24T18:59:45Z" finished-at="2019-10-24T18:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPageTitleTest -->
+        <test-method status="PASS" signature="deliverHereClick()[pri:3, instance:com.flipkart.qa.testCases.CheckoutPageTest@7d9d1a19]" name="deliverHereClick" duration-ms="2140" started-at="2019-10-24T18:59:47Z" finished-at="2019-10-24T18:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deliverHereClick -->
+        <test-method status="PASS" signature="continueClick()[pri:4, instance:com.flipkart.qa.testCases.CheckoutPageTest@7d9d1a19]" name="continueClick" duration-ms="8912" started-at="2019-10-24T18:59:49Z" finished-at="2019-10-24T18:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueClick -->
+      </class> <!-- com.flipkart.qa.testCases.CheckoutPageTest -->
+    </test> <!-- Checkout Page -->
+  </suite> <!-- flipkart Automation -->
+</testng-results>

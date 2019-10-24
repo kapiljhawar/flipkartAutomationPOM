@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [flipkart Automation]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.flipkart.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="flipkartLogoImageTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Home Page(failed)">
+    <classes>
+      <class name="com.flipkart.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.LoginPageTest -->
+      <class name="com.flipkart.qa.testCases.HomePageTest">
+        <methods>
+          <include name="searchClickTest"/>
+          <include name="sendSearchItemTest"/>
+          <include name="clickSearchItemTest"/>
+          <include name="accountUserNameTest"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+  <test name="Phone Search Page(failed)">
+    <classes>
+      <class name="com.flipkart.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.LoginPageTest -->
+      <class name="com.flipkart.qa.testCases.PhoneSearchResultPageTest">
+        <methods>
+          <include name="phoneSearchPageTitleTest"/>
+          <include name="verifyCorrectSearchTest"/>
+          <include name="clickOnPhoneTest"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.PhoneSearchResultPageTest -->
+    </classes>
+  </test> <!-- Phone Search Page(failed) -->
+  <test name="Phone Buy Page(failed)">
+    <classes>
+      <class name="com.flipkart.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.LoginPageTest -->
+      <class name="com.flipkart.qa.testCases.PhoneBuyPageTest">
+        <methods>
+          <include name="buyNowButtonClick"/>
+          <include name="buyNowButtonEnabledTest"/>
+          <include name="buyPageTitleTest"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.PhoneBuyPageTest -->
+    </classes>
+  </test> <!-- Phone Buy Page(failed) -->
+  <test name="Checkout Page(failed)">
+    <classes>
+      <class name="com.flipkart.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.LoginPageTest -->
+      <class name="com.flipkart.qa.testCases.CheckoutPageTest">
+        <methods>
+          <include name="continueClick"/>
+          <include name="deliverHereClick"/>
+          <include name="checkoutPageTitleTest"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testCases.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Checkout Page(failed) -->
+</suite> <!-- Failed suite [flipkart Automation] -->
