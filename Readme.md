@@ -14,4 +14,4 @@ NOTE: default config file path after cloning: Flipkart\src\main\java\com\flipkar
 10. Click on Buy Button (checkout)
 11. Select Delivery Address and click on Deliver Here (addressClick)
 12. Click on Continue for Payment (buyClick)
-13. Exit in 3 Seconds (Closes all Open Tabs)
+13. Exit in 3 Seconds... (Closes all Open Tabs)
