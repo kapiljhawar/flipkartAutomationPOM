@@ -30,17 +30,26 @@ public class HomePageTest extends TestBase {
 		Assert.assertTrue(accountOwnerName.equalsIgnoreCase(prop.getProperty("accountName")));
 	}
 
-	@Test(priority = 3)
-	public void clickSearchItemTest() throws InterruptedException {
+	/*
+	 * @Test(priority = 3) public void clickSearchItemTest() throws
+	 * InterruptedException { Thread.sleep(1000); homePage.clickSearchItem(); }
+	 */
+	@Test(priority = 4)
+	public void mobileSearchItemTest() throws InterruptedException {
+		// Thread.sleep(1000);
 		Thread.sleep(1000);
 		homePage.clickSearchItem();
+		homePage.mobileSearchItem(prop.getProperty("mobileSearchItem"));
 	}
-
-	@Test(priority = 4)
-	public void sendSearchItemTest() throws InterruptedException {
-		Thread.sleep(1000);
-		homePage.sendSearchItem(prop.getProperty("searchItem"));
-	}
+	/*
+	 * @Test(priority = 4) public void applicancesSearchItemTest() throws
+	 * InterruptedException { Thread.sleep(1000);
+	 * homePage.applicancesSearchItem(prop.getProperty("applicancesSearchItem")); }
+	 * 
+	 * @Test(priority = 4) public void bookSearchItemTest() throws
+	 * InterruptedException { Thread.sleep(1000);
+	 * homePage.bookSearchItem(prop.getProperty("bookSearchItem")); }
+	 */
 
 	@Test(priority = 5)
 	public void searchClickTest() throws InterruptedException {

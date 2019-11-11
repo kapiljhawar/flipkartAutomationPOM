@@ -40,7 +40,7 @@ public class PhoneBuyPageTest extends TestBase {
 
 	@Test(priority = 4)
 	public void buyNowButtonClick() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		checkoutPage = phoneBuyPage.phoneBuyNowClick();
 	}
 }

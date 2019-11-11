@@ -42,8 +42,16 @@ public class HomePage extends TestBase {
 		SearchBar.click();
 	}
 
-	public void sendSearchItem(String searchItem1) {
-		searchBar1.sendKeys(searchItem1);
+	public void mobileSearchItem(String mobileSearchItem) {
+		searchBar1.sendKeys(mobileSearchItem);
+	}
+
+	public void applicancesSearchItem(String applicancesSearchItem) {
+		searchBar1.sendKeys(applicancesSearchItem);
+	}
+
+	public void bookSearchItem(String bookSearchItem) {
+		searchBar1.sendKeys(bookSearchItem);
 	}
 
 	public PhoneSearchResultPage searchClick() {

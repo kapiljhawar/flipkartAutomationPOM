@@ -79,6 +79,7 @@ public class TestBase {
 	}
 
 	public void quitBrowser() {
+		driver.manage().deleteAllCookies();
 		driver.quit();
 	}
 

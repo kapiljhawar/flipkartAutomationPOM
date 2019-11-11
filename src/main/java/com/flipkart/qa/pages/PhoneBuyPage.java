@@ -18,7 +18,7 @@ public class PhoneBuyPage extends TestBase {
 	public String phoneBuyPageTitleVerify() {
 		return driver.getTitle();
 	}
-	
+
 	public boolean buyNowEnabled() {
 		return buyNow.isEnabled();
 	}

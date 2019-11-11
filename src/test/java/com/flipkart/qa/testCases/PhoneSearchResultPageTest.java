@@ -42,7 +42,7 @@ public class PhoneSearchResultPageTest extends TestBase {
 	@Test(priority = 3)
 	public void verifyCorrectSearchTest() throws InterruptedException {
 		// Thread.sleep(2000);
-		Assert.assertTrue(phoneSearchResultPage.verifyCorrectSearch(prop.getProperty("searchItem")),
+		Assert.assertTrue(phoneSearchResultPage.verifyCorrectSearch(prop.getProperty("mobileSearchItem")),
 				"Incorrect phone Search results");
 	}
 
